@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0d02a8c-e814-4689-ac25-41cf85eabcf2" name="Default Changelist" comment="" />
+    <list default="true" id="a0d02a8c-e814-4689-ac25-41cf85eabcf2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/principe/wcdata/config/MongoDBConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/principe/wcdata/daos/TransactionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/principe/wcdata/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/principe/wcdata/MongoConnectionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/principe/wcdata/WcdataApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/principe/wcdata/WcdataApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/principe/wcdata/daos/AbstractDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/principe/wcdata/daos/AbstractDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/principe/wcdata/WcdataApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/principe/wcdata/WcdataApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/principe/wcdata/daos/AbstractDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/principe/wcdata/daos/AbstractDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wcdata.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wcdata.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +31,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aNET1vhHOaCQfAjk1AwgTq2PTK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,9 +54,27 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MongoConnectionTests">
+    <configuration name="MongoConnectionTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wcdata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.principe.wcdata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.principe.wcdata" />
+      <option name="MAIN_CLASS_NAME" value="com.principe.wcdata.MongoConnectionTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WcdataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="wcdata" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.principe.wcdata.WcdataApplication" />
@@ -48,6 +82,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MongoConnectionTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBeansView">
+    <option name="showImplicitBeans" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -60,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586567655409</updated>
       <workItem from="1586567657407" duration="4454000" />
-      <workItem from="1586998450574" duration="854000" />
+      <workItem from="1586998450574" duration="3515000" />
     </task>
     <servers />
   </component>
@@ -68,21 +110,33 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1678" height="409" key="GridCell.Tab.0.bottom" timestamp="1586572651339">
-      <screen x="0" y="23" width="3440" height="1417" />
+    <state x="311" y="170" key="#Project_Structure" timestamp="1587002109194">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state x="311" y="170" key="#Project_Structure/0.23.1680.1027@0.23.1680.1027" timestamp="1587002109194" />
+    <state x="959" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587000195167">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="959" y="345" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1587000195167" />
+    <state width="798" height="408" key="GridCell.Tab.0.bottom" timestamp="1587002123780">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="798" height="408" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1587002123780" />
     <state width="1678" height="409" key="GridCell.Tab.0.bottom/0.23.3440.1417@0.23.3440.1417" timestamp="1586572651339" />
-    <state width="1678" height="409" key="GridCell.Tab.0.center" timestamp="1586572651338">
-      <screen x="0" y="23" width="3440" height="1417" />
+    <state width="798" height="408" key="GridCell.Tab.0.center" timestamp="1587002123779">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state width="798" height="408" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1587002123779" />
     <state width="1678" height="409" key="GridCell.Tab.0.center/0.23.3440.1417@0.23.3440.1417" timestamp="1586572651338" />
-    <state width="1678" height="409" key="GridCell.Tab.0.left" timestamp="1586572651337">
-      <screen x="0" y="23" width="3440" height="1417" />
+    <state width="798" height="408" key="GridCell.Tab.0.left" timestamp="1587002123778">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state width="798" height="408" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1587002123778" />
     <state width="1678" height="409" key="GridCell.Tab.0.left/0.23.3440.1417@0.23.3440.1417" timestamp="1586572651337" />
-    <state width="1678" height="409" key="GridCell.Tab.0.right" timestamp="1586572651338">
-      <screen x="0" y="23" width="3440" height="1417" />
+    <state width="798" height="408" key="GridCell.Tab.0.right" timestamp="1587002123779">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state width="798" height="408" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1587002123779" />
     <state width="1678" height="409" key="GridCell.Tab.0.right/0.23.3440.1417@0.23.3440.1417" timestamp="1586572651338" />
     <state width="1678" height="409" key="GridCell.Tab.1.bottom" timestamp="1586572651340">
       <screen x="0" y="23" width="3440" height="1417" />
